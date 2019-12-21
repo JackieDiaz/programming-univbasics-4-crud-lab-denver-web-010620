@@ -7,9 +7,9 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  dogs = ["shepard", "poodle"]
-  dogs.push("boxer")
-  dogs
+  array = []
+  element = "blue"
+  array.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
